@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+  }
+
+.fill-width {
+    flex: 1;
+}
+
+body{
+    background: tan;
+}
+
+.wielderName{
+    flex-basis: 40%;
+    width: 40%;
+}
+
+.titleImage{
+    flex-basis: 20%;
+}
+
+.bondOne{
+    flex-basis: 40%;
+
+}
+
+input[type="text"]
+{
+    background: transparent;
+    border-bottom: solid black;
+}
