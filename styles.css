@@ -1,20 +1,88 @@
 .main-grid{
   display: grid;
-    background: black;
-    grid-template-columns: 50% 50%;
+  grid-template-rows: 15% 85%;
+  grid-template-columns: 50% 50%;
+  height: 1200;
+  border: solid 7px red;
+  padding: 3px;
 }
 
-#right-body {
+.top-section{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  border: solid 5px orange;
+}
+
+.left-body {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  border: solid 5px purple;
+
   display: grid;
-  color: black;
-  grid-template-rows: 15% 15% 30% 20% 20%;
+  grid-template-rows: 15% 25% 35% 25%;
 }
 
-#right-body p {
-  justify-content: end;
-  color: white;
+.attributes{
+  grid-row: 1;
+  background: pink;
 }
 
-#right-body p:hover {
-  font-size: 40px;
+.skills{
+  grid-row: 2;
+  background: yellow;
+}
+
+.armor{
+  grid-row: 3;
+  background: brown;
+}
+
+.guild-items{
+  grid-row-start: 4;
+  background: darkkhaki;
+}
+
+.right-body {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  border: solid 5px green;
+
+  display: grid;
+  grid-template-rows: 15% 25% 15% 13% 10% 22%;
+}
+
+.injuries{
+  grid-row: 1;
+  background: rosybrown;
+}
+
+.powers{
+  grid-row: 2;
+  background: yellowgreen;
+}
+
+.arcane-tricks{
+  grid-row: 3;
+  background: burlywood;
+}
+
+.industrial-upgrades{
+  grid-row-start: 4;
+  background: palevioletred;
+}
+
+.vilis-coronam{
+  grid-row-start: 5;
+  background: paleturquoise;
+}
+
+.inventory{
+  grid-row-start: 6;
+  background: darkcyan;
 }
